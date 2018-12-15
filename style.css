@@ -1,0 +1,94 @@
+header{
+    background-image: url("img/title_black_and_white_03.jpg");
+    
+    /* padding: 150px 0 100px; */
+    padding-top: 140px 0 100px;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: cover;
+    
+
+
+}
+
+
+.social-media-icons img{
+    height: 30px;
+}
+
+
+.profile-pic{
+    border: 3px solid white;
+    height: 210px;
+    margin-top: -65px;
+
+       
+   }
+
+  .first-section{
+      margin-top: -25px;
+      
+  }
+
+  .profile-content{
+      padding: 15px;
+  }
+
+  .section{
+    /* padding top 60px and bottom 40x */
+    padding: 60px 0 40px
+ }
+
+  .second-section{
+    background-color: #F7F9FC;
+  }
+
+  .projects{
+      padding-top: 15px;
+  }
+  .third-section{
+      background-color: antiquewhite;
+  }
+
+  .quick-links-section{
+      background-color: black;
+  }
+
+  footer{
+    background-color: black;
+    padding: 35px 0;
+    color: aliceblue;
+  }
+
+
+  .grid{
+          display: grid;
+          grid-template-columns: auto auto auto;
+         
+          
+  }
+
+  .grid-item{
+      display: inline-grid
+  }
+
+
+
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    footer{
+        color: darkslateblue;
+    }
+    
+  }
+
+
+
+  #skilltab{
+      text-align: center;
+  }
